@@ -1,0 +1,27 @@
+body {
+  background-color: darkgrey;
+  color: whitesmoke;
+  width: 90%;
+  margin: 10vh auto;
+  align-items: center;
+}
+
+.container{
+  background-color: black;
+  width: 20rem;
+  margin: auto;
+  border: 1px solid red;
+  align-items: auto;
+}
+
+.container .info nav img{
+  border-radius: 20px 20px 0 0 ;
+}
+ .container .info{
+  width: 90%;
+  margin: auto;
+ }
+.container .info h1, h3{
+  margin: 0 10%;
+}
+
