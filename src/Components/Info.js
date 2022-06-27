@@ -1,6 +1,7 @@
 import React from 'react'
 import profilePic from '../Image/Profile.jpg'
-import logo from "../Image/logo.svg"
+import email from "../Image/email.png"
+import linkedin from "../Image/Linkedin.png"
 
 export default function Info (){
     return(
@@ -8,18 +9,21 @@ export default function Info (){
             <nav>
             <img src={profilePic} alt="profile pic"/>
             </nav>
-        
+            <div className='details'>
             <h1>Ddiiro Joseph</h1>
             <h3>Frontend Developer</h3>
+            <h5>ddiiro92@gmail.com</h5>
+            </div>
+            
 
-            <div>
-                <button>
-                    <img src={logo} alt="email"/>
-                    <h5>Email</h5>
+            <div className='contact'>
+                <button className='email'>
+                    <img src={email} alt="email"/>
+                    Email
                 </button>
                 <button>
-                    <img src={logo} alt="linkedin"/>
-                    <h5>Linkedin</h5>
+                    <img src={linkedin} alt="linkedin"/>
+                    Linkedin
                 </button>
             </div>
         </div>

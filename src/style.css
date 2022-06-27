@@ -1,27 +1,81 @@
 body {
-  background-color: darkgrey;
+  background-color: rgb(18,16,16);
   color: whitesmoke;
-  width: 90%;
-  margin: 10vh auto;
+  width: 300px;
+  height: 700px;
+  margin: 2vh auto;
   align-items: center;
 }
 
 .container{
-  background-color: black;
-  width: 20rem;
-  margin: auto;
-  border: 1px solid red;
-  align-items: auto;
+  background-color: #171515;
+  /* max-width: 375px;
+  max-height:667px; */
+  display: block;
+  padding:5px;
+  justify-content: center;
+  align-content: center;
 }
 
 .container .info nav img{
-  border-radius: 20px 20px 0 0 ;
+  border-radius: 12px 12px 0 0;
+  height: 30vh;
+  position: relative;
+  left: 35%;
 }
- .container .info{
-  width: 90%;
-  margin: auto;
- }
-.container .info h1, h3{
-  margin: 0 10%;
+.container .info h1, h3, h5{
+  line-height: 1px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.details{
+  padding: 10px;
+  margin-left:40px;
+}
+.email{
+  margin-right:10%;
+  /* background-color: #fff; */
+  color: black;
+}
+button{
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+  color: black;
+  background-color: rgb(97,218,251);
+  padding: 5px;
+  outline: none;
+  border: none;
 }
 
+button img{
+  width: 25px;
+  position: relative;
+  bottom: 5px;
+  padding: 3px;
+}
+.footer{
+  background-color: rgb(97,218,251);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.footer img{
+  margin-left: 5px;
+  padding: 2px;
+}
+.title{
+  color: rgb(97,218,251);
+}
+.content{
+  margin-left: auto;
+}
